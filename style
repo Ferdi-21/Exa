@@ -1,0 +1,120 @@
+* {
+	de caja de tamaño : frontera-box;
+	margen : 0 ;
+	acolchado : 0 ;
+}
+
+cuerpo {
+	familia de fuentes :  'Lato' , sans-serif;
+}
+. fila {
+	ancho :  100 % ;
+}
+
+. menu-title {
+	alineación de texto : centro;
+	margen inferior :  30 px ;
+}
+. contenedor {
+	posición : relativa;
+	superior : 60 px ;
+	margen :  15 px ;
+}
+
+. item {
+	posición : relativa;
+	arriba :  0 ;
+	color de fondo : # 999999 ;
+	margen :  15 px ;
+	relleno :  25 px ;
+	borde :  3 px sólido # 000 ;
+}
+
+. item  p {
+	margen superior :  18 px ;
+	alinear texto : justificar;
+	tamaño de fuente : 100 % ;
+
+}
+. item-title {
+	posición : absoluta;
+	arriba : 0 ;
+	bien . 0px;
+	fondo :  verde ;
+	relleno : 6px 90px;
+	borde izquierdo : 2px sólido  # 000;
+	borde inferior : 2px sólido  # 000;
+
+}
+# title-one {
+	color de fondo :  # D59898 ;
+}
+}
+# title-two {
+	color de fondo :  # C14543 ;
+}
+}
+# title-three {
+	color de fondo :  # E5D198 ;
+}
+
+
+/ * Marco de respuesta simple. * /
+/*------ Escritorio ------*/
+@media ( ancho mínimo :  992 px ) {
+  . col-lg-1 , . col-lg-2 , . col-lg-3 , . col-lg-4 , . col-lg-5 , . col-lg-6 , . col-lg-7 , . col-lg-8 , . col-lg-9 , . col-lg-10 , . col-lg-11 , . col-lg-12 {
+    flotar : izquierda;  
+  }
+  . col-lg-1 {
+    ancho :  8,33 % ;
+  }
+  . col-lg-2 {
+    ancho :  16,66 % ;
+  }
+  . col-lg-3 {
+    ancho :  25 % ;
+  }
+  . col-lg-4 {
+    ancho :  33,33 % ;
+  }
+  . col-lg-5 {
+    ancho :  41,66 % ;
+  }
+  . col-lg-6 {
+    ancho :  50 % ;
+  }
+  . col-lg-7 {
+    ancho :  58,33 % ;
+  }
+  . col-lg-8 {
+    ancho :  66,66 % ;
+  }
+  . col-lg-9 {
+    ancho :  74,99 % ;
+  }
+  . col-lg-10 {
+    ancho :  83,33 % ;
+  }
+  . col-lg-11 {
+    ancho :  91,66 % ;
+  }
+  . col-lg-12 {
+    ancho :  100 % ;
+  }
+/ * ------ Tableta ------ * /
+@media ( ancho mínimo :  768 px ) y ( ancho máximo :  991 px ) {
+	. col-lg-4 {
+	ancho :  50 % ;
+	flotar : izquierda;
+}
+. col-lg-tablet {
+ancho :  100 % ;
+	flotar : izquierda;
+ }
+ / * ------ Móvil ------ * /
+@media ( ancho máximo :  767 px ) {
+  . col-lg-4 {
+  ancho :  100 % ;
+  flotar : izquierda;
+}
+}
